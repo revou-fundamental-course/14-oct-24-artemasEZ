@@ -1,1 +1,31 @@
 /* Ini Css */
+
+.logo-icon{
+    background-image: url(https://picsum.photos/100);
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position:fixed;
+    left: 20px;
+}
+
+body {
+    background-color: gray;
+}
+
+.container{
+    padding: 10px;
+    padding-right: 100px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+}
+.container > div{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 2px solid;
+    background-color: green;
+}
